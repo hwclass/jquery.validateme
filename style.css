@@ -1,0 +1,5 @@
+.clearfix:before, .clearfix:after, .clearfix > .lastcol:after, .ffluid:after, br.cb{display:block; height:0 !important; line-height:0; overflow:hidden; visibility:hidden}
+.clearfix:before, .clearfix:after{content:"."}
+.clearfix:after{clear:both}
+.clearfix, .ffluid{*zoom:1}
+.errorToolTip {position: absolute; background: #DEDEDE; padding: 2px; font-size: 10px;}
