@@ -1,4 +1,10 @@
-jquery.validateme
-=================
+## jquery.validateme 1.0.0
 
 A basic jQuery plugin for validation plain, password and e-mail texts.
+
+### usage
+<pre lang="javascript">
+<code>
+'''$('#formId').parent().validateMe();'''
+</code>
+</pre>
