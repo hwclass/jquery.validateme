@@ -5,6 +5,6 @@ A basic jQuery plugin for validation plain, password and e-mail texts.
 ### usage
 <pre lang="javascript">
 <code>
-'''$('#formId').parent().validateMe();'''
+'''$('#formId').validateMe();'''
 </code>
 </pre>
