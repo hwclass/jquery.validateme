@@ -5,6 +5,17 @@
 		<title>jquery.validateme</title>
 	</head>
 	<body>
-		
+		<form name="testForm" id="loginForm" method="post" action="www.google.com" data-validate="yes">
+	    <label>User Name: </label>
+	    <input type="text" id="userName" name="name" data-validate-me="yes"/>
+	    <div class="clearfix"></div>
+	    <label>Password: </label>
+	    <input type="password" id="userPass" name="pass" data-validate-me="yes"/>
+	    <div class="clearfix"></div>
+	    <label>E-mail: </label>
+	    <input type="text" id="userEmail" name="email" data-validate-me="yes" data-validate-email="yes"/>
+	    <div class="clearfix"></div>
+	    <input type="submit" value="Sign In" id="login" onClick="return false;"/>
+		</form>
 	</body>
 </html>
