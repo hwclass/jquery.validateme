@@ -12,8 +12,8 @@ $('#formId').validateMe();
 
 To clear all the validation status tooltip boxes, use the method below:
 
-<pre>
-<code lang="javascript">
+<pre lang="javascript">
+<code>
 function clearErrors () {
 	$('div[id*=errorToolTip]').remove();
 }
