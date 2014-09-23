@@ -1,0 +1,36 @@
+{
+	"name": "validateme",
+	"title": "jQuery ValidateMe",
+	"description": "A basic jQuery plugin for validation plain, password and e-mail texts.",
+	"keywords": [
+		"validation",
+		"validate",
+		"form",
+		"input"
+	],
+	"version": "1.0.0",
+	"author": {
+		"name": "Barış Güler",
+		"url": "https://github.com/hwclass/jquery.validateme/AUTHORS.txt"
+	},
+	"maintainers": [
+		{
+			"name": "Barış Güler",
+			"email": "harderworking.class@gmail.com",
+			"url": "hwclass.github.io"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/hwclass/jquery.validateme/LICENSE.txt"
+		}
+	],
+	"bugs": "https://github.com/hwclass/jquery.validateme/issues",
+	"homepage": "https://github.com/hwclass/jquery.validateme/",
+	"docs": "https://github.com/hwclass/jquery.validateme/",
+	"download": "https://github.com/hwclass/jquery.validateme/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.7"
+	}
+}
